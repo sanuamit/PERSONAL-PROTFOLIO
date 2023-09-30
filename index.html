@@ -413,7 +413,7 @@
                     <div class="text">Message me</div>
                     <hr>
                     <br><br>
-                    <form method="post" action="https://formspree.io/f/xdordppn">
+                    <form method="post" action="https://formspree.io/f/xdordppn" id="contact-form">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" name="name" placeholder="Name" required>
@@ -432,7 +432,6 @@
                             <button type="submit">Send message</button>
                         </div>
                     </form>
-
                     <br><br><br><br><br><br>
                     <hr>
                 </div>
@@ -455,6 +454,10 @@
     </footer>
 
     <script>
+        document.getElementById("contact-form").addEventListener("submit", function () {
+            // Clear input fields after submission
+            this.reset();
+        });
         const currentDate = new Date();
 
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
