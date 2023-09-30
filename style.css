@@ -328,7 +328,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background: rgb(17, 67, 173);
+  background: rgb(117, 157, 243);
 }
 
 .services .serv-content .card .box {
@@ -341,7 +341,7 @@ section .title::after {
 
 .services .serv-content .card i {
   font-size: 50px;
-  color: rgb(17, 67, 173);
+  color: rgb(117, 157, 243);
   transition: color 0.3s ease;
 }
 
@@ -354,6 +354,38 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+.services .serv-content .card-box {
+  width: calc(109% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 35px;
+}
+
+.services .serv-content .card-box:hover {
+  background: rgb(117, 157, 243);
+  transform: scale(1.05);
+}
+
+.services .serv-content .card-box i {
+  font-size: 50px;
+  color: rgb(117, 157, 243);
+  transition: color 0.3s ease;
+}
+
+.services .serv-content .card-box:hover i {
+  color: #fff;
+}
+
+.services .serv-content .card-box .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
 
 /* skills section styling */
 
@@ -430,19 +462,37 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-  width: 60%;
+  width: 90%;
 }
 
 .skills-content .right .js::before {
-  width: 80%;
+  width: 90%;
 }
 
-.skills-content .right .php::before {
-  width: 50%;
+.skills-content .right .react::before {
+  width: 90%;
 }
 
 .skills-content .right .mysql::before {
   width: 70%;
+}
+.skills-content .right .bootstrap:before {
+  width: 80%;
+}
+.skills-content .right .tailwind::before {
+  width: 70%;
+}
+.skills-content .right .JSON::before {
+  width: 70%;
+}
+.skills-content .right .xampp::before {
+  width: 60%;
+}
+.skills-content .right .c::before {
+  width: 60%;
+}
+.skills-content .right .java::before {
+  width: 50%;
 }
 
 /* teams section styling */
@@ -519,7 +569,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid rgb(17, 67, 173) !important;
+  border: 2px solid rgb(252, 253, 253) !important;
   transition: all 0.3s ease;
 }
 
@@ -530,7 +580,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-  background: rgb(17, 67, 173) !important;
+  background: rgb(65, 236, 136) !important;
 }
 
 /* contact section styling */
