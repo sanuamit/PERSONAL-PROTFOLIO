@@ -190,9 +190,9 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("banner-1.jpg") no-repeat center;
+  background: url("Banner.jpg") no-repeat center;
   height: 100vh;
-  color: #f1f1f1;
+  color: #2c2536;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -354,6 +354,7 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+
 .services .serv-content .card-box {
   width: calc(109% - 20px);
   background: #222;
@@ -476,23 +477,41 @@ section .title::after {
 .skills-content .right .mysql::before {
   width: 70%;
 }
+
 .skills-content .right .bootstrap:before {
   width: 80%;
 }
+
 .skills-content .right .tailwind::before {
   width: 70%;
 }
+
 .skills-content .right .JSON::before {
   width: 70%;
 }
+
 .skills-content .right .xampp::before {
-  width: 60%;
+  width: 70%;
 }
+
 .skills-content .right .c::before {
   width: 60%;
 }
+
 .skills-content .right .java::before {
   width: 50%;
+}
+
+.skills-content .right .nextjs::before {
+  width: 70%;
+}
+
+.skills-content .right .figma::before {
+  width: 70%;
+}
+
+.skills-content .right .mean-mern::before {
+  width: 80%;
 }
 
 /* teams section styling */
