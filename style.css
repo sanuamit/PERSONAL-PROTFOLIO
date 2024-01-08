@@ -331,7 +331,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background: rgb(117, 157, 243);
+  background: rgb(25, 95, 245);
 }
 
 .services .serv-content .card .box {
@@ -370,7 +370,7 @@ section .title::after {
 }
 
 .services .serv-content .card-box:hover {
-  background: rgb(117, 157, 243);
+  background: rgb(23, 45, 88);
   transform: scale(1.05);
 }
 
